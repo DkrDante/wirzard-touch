@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+:root {
+  --bg: #06000e; --panel: #0b0016; --border: #2a0858;
+  --gold: #ffd700; --dim: #5a3a00; --red: #ff2020;
+  --green: #20ff70; --purple: #cc44ff; --cyan: #30ccff;
+  --orange: #ff8020; --px: "Press Start 2P", monospace; --vt: "VT323", monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 100vw; height: 100vh; overflow: hidden; background: var(--bg); color: var(--gold); font-family: var(--px); }
+
+/* ... Paste the rest of your exact CSS here ... */
